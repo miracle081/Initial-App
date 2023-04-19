@@ -6,9 +6,9 @@ export function Counter() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.header}>Counter App</Text>
+            <Text style={styles.header}>Counter</Text>
             <Text style={styles.count}>{count}</Text>
-            <View style={{ margin: 10 }}>
+            <View style={{ margin: 10 }}> 
                 <Button title="Count +" color="green" onPress={() => { setCount(count + 1) }} />
             </View>
             <View style={{ margin: 10 }}>
